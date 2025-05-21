@@ -1,0 +1,16 @@
+                      strings in python:
+
+name="sai kumar"
+name='sai kumar'
+'The language "python" is named after Monty Python.' #correct procedure for quotes in sentence
+"The language 'python' is named after Monty Python." #correct procedure for quotes in sentence
+"The language 'python' is named after 'Monty Python'." #correct procedure for quotes in sentence
+
+==> Alternatively,single and double quotes within a strimg can be escaped usng backslash character.
+
+"The language \"python\" is named after \'Monty Python\'." #correct procedure for quotes in sentence
+
+"""Hello world
+... i am sai
+... you"""
+'Hello world\ni am sai\nyou'

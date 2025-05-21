@@ -1,0 +1,6 @@
+t=[1,2,3,4,5]
+print(3 in t)
+print(6 not in t)
+q="i am sai kumar"
+print("sai" in q)
+print("ramesh" not in q)

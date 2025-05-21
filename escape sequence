@@ -1,0 +1,9 @@
+print("swaroop\'s car")   #swaroops's car
+print("swaroop's car")    #swaroops's car
+print("Hello\"s world")  #Hello"s world
+# print("Hello"s world")   #error
+print("hello \\s world")  #hello \s world
+print("Hello\nworld")    #Hello
+                         #world
+print("Hello\tworld")    #Hello   world
+                    

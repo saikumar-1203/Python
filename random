@@ -1,0 +1,12 @@
+import random
+print("1:yes")
+print("2:no")
+s=int(input("enter 1/2 :"))
+if s==1:
+    n=random.randint(1,6)
+    print(n)
+
+    
+    
+
+

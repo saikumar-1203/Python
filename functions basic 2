@@ -1,0 +1,6 @@
+def greeting_user(name,greet="Hello"):
+    return greet+" "+name+"!"
+greeting1=greeting_user("sai ")
+greeting2=greeting_user("sai","hi")
+print(greeting1)
+print(greeting2)

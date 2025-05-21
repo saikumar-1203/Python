@@ -1,0 +1,11 @@
+a=True
+b=False
+print(type(a))
+print(type(b))
+print(a&b)
+print(a|b)
+print(not a)
+print(a and b)
+print(a or b)
+
+

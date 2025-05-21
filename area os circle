@@ -1,0 +1,2 @@
+n=float(input("Ente the radius"))
+print(f"The area of circle is{3.14*n*n}")

@@ -1,0 +1,6 @@
+a=100
+b=0.5
+c=a+b
+print(type(a))
+print(type(b))
+print((type(c)))

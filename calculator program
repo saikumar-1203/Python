@@ -1,0 +1,14 @@
+a=int(input("enter the first value"))
+b=int(input("enter the second value"))
+oper=input("enter the operation to be performrd:")
+if oper=="+":
+    print(f"The sum is {a+b}")
+elif oper=="-":
+    print(f"The differec=nce is {a-b}")
+elif oper=="*":
+    print(f"The product is {a*b}")
+elif oper=="/":
+    print("The deviion is {a/b}")
+else:
+    print("Operation is not found")
+

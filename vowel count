@@ -1,0 +1,13 @@
+char="Hello world !"
+a=char.count('a')
+A=char.count('A')
+e=char.count('e')
+E=char.count('E')
+i=char.count('i')
+I=char.count('I')
+o=char.count('o')
+O=char.count('O')
+u=char.count('u')
+U=char.count('U')
+res=a+A+e+E+i+I+o+O+u+U
+print(f"Number of vowels:{res}")

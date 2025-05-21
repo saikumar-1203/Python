@@ -1,0 +1,21 @@
+a=input("Enter numbers")
+x,y,z=a.split(" ")
+x=int(x)
+y=int(y)
+z=int(z)
+if(x>y):
+    if(x>z):
+        print(f"{x} is big")
+    else:
+        print(f"{z} is big")
+elif(y>x):
+    if(y>z):
+        print(f"{y} is big")
+    else:
+        print(f"{z} is big")
+elif(z>x):
+    if(z>y):
+        print(f"{z} is big")
+    else:
+        print("{y} is big")
+            

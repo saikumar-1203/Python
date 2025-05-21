@@ -1,0 +1,3 @@
+a=input("Ente the name")
+b=int(input("enter the age"))
+print(f"my name is {a},my age is {b}")

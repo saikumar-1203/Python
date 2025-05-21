@@ -1,0 +1,5 @@
+x=input()
+inp=x.split()
+print(inp)
+l=[int(item) for item in inp]
+print(l)

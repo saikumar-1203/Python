@@ -1,0 +1,8 @@
+hour=int(input("Enter hours"))
+minutes=int(input("Enter minutes"))
+d=int(input(" Enter 1 for am \n Enter 2 for pm :"))
+if(d==1):
+    print(f"time in 24 hours:{hour}",":",minutes)
+elif(d==2):
+    temp=hour+12
+    print(f"time in 24 hours:{temp}",":",minutes)

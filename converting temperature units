@@ -1,0 +1,5 @@
+t=float(input("Ente the temperature in celsius:"))
+f=(t*(9/5))+32
+k=t+273
+print(f"the temperature in fahrenheit is:{f}")
+print(f"the temperature in kelvin is:{k}")

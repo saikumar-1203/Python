@@ -1,0 +1,7 @@
+candies=10
+for i in range (1,candies):
+    print("give to friend")
+    if candies-i<=5:
+        print("Only 5 candies left.stop distribution.")
+        continue
+

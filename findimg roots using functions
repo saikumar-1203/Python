@@ -1,0 +1,14 @@
+def roots(a,b,c):
+    det=(b**2)-4*a*c
+    r1=(-b+(det**0.5))/2*a
+    r2=(-b-(det**0.5))/2*a
+    print(r1)
+    print()
+    print(r2)
+x=input()
+a,b,c=x.split(" ")
+a=int(a)
+b=int(b)
+c=int(c)
+roots(a,b,c)
+    

@@ -1,0 +1,12 @@
+a=input("Enter the name")
+print("Hello ",a,sep="",end="!")
+print()
+b=3.14
+print("You entered:",b,sep="",end=".")
+print()
+c=input("enter three numbers")
+x,y,z=c.split(" ")
+x=int(x)
+y=int(y)
+z=int(z)
+print("sum of inputs is :",x+y+z)

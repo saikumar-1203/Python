@@ -1,0 +1,33 @@
+'''graph={'0':['1','2'],'1':['0','2','3'],'2':['0','1','4'],'3':['1','4'],'4':['2','3']}
+queue=[]
+visited=[]
+def BFS(node,graph):
+    queue.append(node)
+    visited.append(node)
+    while(queue):
+        d=queue.pop(0)
+        print(d,end="")
+        for p in graph[d]:
+            if p not in visited:
+                visited.append(p)
+                queue.append(p)
+    
+BFS('0',graph)
+
+#DFS
+
+graph={'0':['1','2'],'1':['0','2','3'],'2':['0','1','4'],'3':['1','4'],'4':['2','3']}
+stack=[]
+visited=[]
+def DFS(node,graph):
+    stack.append(node)
+    visited.append(node)
+    while(stack):
+        d=stack.pop()
+        print(d,end=" ")
+        for p in graph[d]:
+            if p not in visited:
+                visited.append(p)
+                stack.append(p)
+    
+DFS('0',graph)'''

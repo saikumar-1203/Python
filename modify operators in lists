@@ -1,0 +1,13 @@
+fruits=["apple","banana","orange"]
+fruits.append("pineapple")
+print(fruits)
+fruits.insert(3,"grapes")
+print(fruits)
+fruits.remove("pineapple")
+print(fruits)
+fruits.pop()
+print(fruits)
+fruits.append("apple")
+print(fruits)
+print(fruits.index("orange"))
+print(fruits.count("apple"))

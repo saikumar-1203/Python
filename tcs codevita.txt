@@ -1,0 +1,47 @@
+import java.util.*;
+
+class Form
+{
+  public static void main(String[] args)
+  {
+    Scanner in = new Scanner(System.in);
+    String n = in.next();
+    int d = n.length();
+    char[] c = n.toCharArray();
+    int[] arr = new int[d];
+    for(int i = 0;i<d;i++)
+    {
+      arr[i] = in.nextInt();
+    }
+    int total = 0;
+    for(int i = 0;i<d-1;i++)
+    {
+      total +=arr[i];
+    }
+    int[] arr1 = new int[d];
+    int[] arr2 = new int[d];
+    
+    arr1[0] = (c[0] == '0')?arr[0] : 0;
+    arr2[0] = (c[0] == '1')?arr[0] : 0;
+    
+    for(int i =1 ; i <d ;i++)
+    {
+      if(c[i] == '0')
+      {
+        arr1[i] = arr2[i-1] + arr[i]; 
+       } 
+      else {
+           arr1[i] = arr1[i - 1]; 
+       }
+       if (c[i] == '1') {
+           arr2[i] = arr1[i - 1] + arr[i]; // If current is '1', it must follow '0'
+       }
+       else {
+             arr2[i] = arr2[i - 1]; // Skip current '0' if it's not alternating
+       }
+    }
+    int maxi = Math.max(arr1[d-1],arr2[d-1]);
+    int count = total - maxi;
+    System.out.println(count);
+  }
+}

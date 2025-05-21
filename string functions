@@ -1,0 +1,5 @@
+f="John"
+l="Doe"
+full=f+l    #string concatinaton
+print(full)
+print(len(full))

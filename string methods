@@ -1,0 +1,28 @@
+str="    Hello     World   !  "
+a="ollo"
+print(str.upper())    #   HELLO     WORLD   ! 
+print(str.lower())    #   hello     world   !  
+print(str.capitalize())  #  Hello     world   !
+print(str.title())    #   Hello     World   !
+print(str.strip())   #   Hello     World   !
+print(str.lstrip)    #Hello     World   !
+print(str.rstrip())  #   Hello     World   !
+print(str.startswith(" "))   #True
+"""print(str.replace("hello","hi"))
+print(str.split())
+print(str.join(str))"""
+print(str.find("Hello"))   #4
+print(str.rfind("Hello"))   #4
+"""print(str.index("sai"))
+print(str.rindex("hello"))"""
+print(str.count("Hello"))   #1
+print(str.isalnum())  #True
+print(str.isalpha())  #False
+print(str.isdigit())  #False
+print(str.islower())  #False
+print(str.isupper())  #False
+print(str.isspace())  #False
+print(str.isnumeric())  #False
+print(str.isdecimal())  #False
+
+

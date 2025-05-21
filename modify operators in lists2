@@ -1,0 +1,10 @@
+l=[1,6,5,4,3]
+l.sort()
+print(l)
+l.reverse()
+print(l)
+s=l.copy()
+print(s)
+s.clear()
+print(l)
+print(s)

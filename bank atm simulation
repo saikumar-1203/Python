@@ -1,0 +1,62 @@
+print("WELCOME")
+print("PLEASE ENTER THE DEBIT CARD")
+balance=10000
+for i in range(1,5):
+    x=int(input("ENTER THE PIN "))
+    if(x==1203):
+        print("1:DEPOSIT:")
+        print("2:WITDRAW:")
+        print("3:CHECK BALANCE:")
+        print("                 :::ENTER THE SERVICE TO BE PROVIDED:::\n")
+        service=int(input())
+        if(service==1):
+            deposit=int(input("Enter amount to be deposited"))
+            print(f"The amount deposited:{deposit}")
+            balance+=deposit
+            print(f"The balance is :",balance)
+            print()
+            print("DO U WANT MORE SERVICES :")
+            print("1:YES")
+            print("2:NO")
+            s=int(input())
+            if(s==1):
+                continue
+            else:
+                break
+        elif(service==2):
+            if(balance>=2000):
+                witdraw=int(input("Enter the amount to be witdrawn"))
+                print(f"The amount witdrawn is {witdraw}")
+                balance-=witdraw
+                print(f"The balance is :{balance}")
+                print()
+                print("DO U WANT MORE SERVICES :")
+                print("1:YES")
+                print("2:NO")
+                s=int(input())
+                if(s==1):
+                    continue
+                else:
+                    break
+            else:
+                print("WITDRAW IS NOT ALLOWED IF BALANCE IS LESS THAN MINIMUM BALANCE")
+        elif(service==3):
+            print("The bank balance is",balance)
+            print()
+            print("DO U WANT MORE SERVICES :")
+            print("1:YES")
+            print("2:NO")
+            s=int(input())
+            if(s==1):
+                continue
+            else:
+                break
+    else:
+        print("INCORRECT PIN")
+        print(f"MORE {5-i} ATTEMPTS ARE POSSIBLE")
+        print("RE ENTER THE CORRECT PIN ")
+print("THANK YOU FOR VISITING")
+
+
+
+
